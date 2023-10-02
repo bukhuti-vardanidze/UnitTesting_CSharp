@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{AF8BA224-3601-4C27-BD43-EDCC3C15C225}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task_Sum", "Task_Sum", "{7FC5F5D8-64DD-42EB-B93D-B6E47C5E1B54}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,6 +32,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CA292799-1FA8-49FE-AFA0-43E0D27A5327} = {7FC5F5D8-64DD-42EB-B93D-B6E47C5E1B54}
+		{BB259FB9-761C-4C66-A710-491313520D91} = {7FC5F5D8-64DD-42EB-B93D-B6E47C5E1B54}
+		{AF8BA224-3601-4C27-BD43-EDCC3C15C225} = {7FC5F5D8-64DD-42EB-B93D-B6E47C5E1B54}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F6B03E04-C0CF-42CA-B8E6-E508EB37F098}
